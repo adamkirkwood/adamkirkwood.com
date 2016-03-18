@@ -34,8 +34,8 @@ activate :autoprefixer do |config|
 end
 
 activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.remote   = 'origin'
+  deploy.method   = :git
+  deploy.remote   = 'backup'
   deploy.branch   = 'gh-pages'
   deploy.build_before = true
 end
